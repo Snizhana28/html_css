@@ -1,0 +1,38 @@
+body {
+   margin: 0 382px;
+   font-family: poppins, sans-serif;
+}
+
+h1 {
+   text-align: center;
+}
+
+p span {
+   background-color: #EEEEEE;
+   color: #C80036;
+}
+
+.term {
+   text-decoration: underline dotted;
+   background: none;
+   color: black;
+}
+
+pre {
+   background: #EEEEEE;
+   color: #C80036;
+}
+
+.text {
+   color: black;
+}
+
+.tagLabel {
+   font-size: 12px;
+}
+
+.tagItem {
+   background-color: #EEEEEE;
+   color: #438e96;
+   font-size: 12px;
+}
