@@ -1,0 +1,22 @@
+body {
+   font-family: poppins, sans-serif;
+}
+
+.div {
+   width: 250px;
+   border: 1px solid black;
+}
+
+.title {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+li {
+   font-size: 14px;
+   font-weight: normal;
+}
+
+ul {
+   list-style-type: none;
+}
