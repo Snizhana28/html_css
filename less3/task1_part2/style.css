@@ -1,0 +1,22 @@
+table {
+   width: 80%;
+   min-width: 650px;
+   max-width: 800px;
+   margin: 0 auto;
+   border-collapse: separate;
+   background-color: #438e96;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+thead th {
+   text-align: center;
+   padding: 0.5em
+}
+
+td,
+th {
+   border: 2px dotted white;
+   color: white;
+   text-align: left;
+   padding: 0.5em
+}
