@@ -1,0 +1,46 @@
+.gate {
+   width: 400px;
+   height: 150px;
+   border: 1px solid red;
+   position: relative;
+   perspective: 500px;
+
+}
+
+.block1 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   top: 0;
+   width: 50%;
+   background: red;
+   transition: all .5s linear;
+   transform-origin: left;
+   transform: rotateY(0);
+
+}
+
+.gate:hover .block1 {
+   transform: rotateY(50deg);
+}
+
+.block2 {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   top: 0;
+   width: 50%;
+   background: red;
+   transition: all .5s linear;
+   transform-origin: right;
+   transform: rotate(0);
+}
+
+.gate:hover .block2 {
+   transform: rotateY(-50deg);
+}
+
+h1 {
+   text-align: center;
+   margin-top: 50px;
+}
