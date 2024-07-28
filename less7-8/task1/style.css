@@ -1,0 +1,45 @@
+.square {
+   width: 500px;
+   height: 500px;
+   margin: 25px auto;
+   background: #bfe0e2;
+   border: 5px solid #3b757f;
+   position: relative;
+}
+
+.pos,
+.border1,
+.border2 {
+   width: 250px;
+   height: 250px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.pos {
+   text-align: center;
+   border: 3px double #3b757f;
+   box-shadow: 0 0 10px 15px #5faab1;
+   z-index: 1;
+}
+
+.pos img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.border1 {
+   border-top: 10px solid #3b757f;
+   border-bottom: 10px solid #3b757f;
+   transform: translate(-50%, -50%) rotate(-45deg);
+   z-index: 2;
+}
+
+.border2 {
+   border: 10px solid #3b757f;
+   transform: translate(-50%, -50%) rotate(-45deg);
+   z-index: 0;
+}
